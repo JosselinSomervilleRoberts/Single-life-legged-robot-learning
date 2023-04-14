@@ -90,6 +90,8 @@ sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 ```
 Make sure to run these commands and not the old ones described in the post using a version specific path `/usr/local/cuda-11.4` (I tried and it did not work for me).
 
+At this point you can safely delete the folder that you unzipped and renamed `cuda`.
+
 #### Problem: Black screen after Driver install
 If you get a black screen after installation (which happened to me), you might follow **generix**'s instruction [here](https://forums.developer.nvidia.com/t/black-screen-after-install-of-nvidia-driver-ubuntu/109312). The steps are:
 - delete /etc/X11/xorg.conf
